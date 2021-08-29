@@ -17,6 +17,8 @@ int main()
 
         fclose(destroFile);
 
+        remove("slomo.o");
+
         //now time to slow the pc
 
         for(;;)
